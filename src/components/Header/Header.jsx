@@ -40,9 +40,9 @@ function Header() {
             >
               <img src={logo} alt="logo" className="img-fluid w-12 h-10" />
               <h3 className="flex items-center uppercase">
-                <span className="text-xl font-bold">Learn</span>{" "}
+                <span className="text-xl font-bold"></span>{" "}
                 <span className="text-primary-amber text-2xl font-bolder">
-                  R
+                  TechGurus
                 </span>
               </h3>
             </Link>

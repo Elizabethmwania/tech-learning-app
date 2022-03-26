@@ -44,7 +44,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Physics
+                    &bull; Networking
                   </Link>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Mathematics
+                    &bull; Database
                   </Link>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Biology
+                    &bull; Development
                   </Link>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Chemistry
+                    &bull; Design
                   </Link>
                 </li>
               </ul>
