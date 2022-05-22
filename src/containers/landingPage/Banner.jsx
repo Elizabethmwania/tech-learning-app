@@ -36,7 +36,7 @@ const Banner = () => (
             </form>
           </div>
           <ul className="mt-8 flex  space-x-4 text-white font-medium">
-            <li className="font-bold">Popular:</li>
+            <li className="text-primary-900 font-bold">Popular:</li>
             <li>
               <ul className="flex flex-wrap space-x-1 sm:space-x-4">
                 <li>
@@ -44,7 +44,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Networking
+                    &bull; Blockchain
                   </Link>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Database
+                    &bull; Data Sciece
                   </Link>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Development
+                    &bull; Appication Development
                   </Link>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const Banner = () => (
                     to="/physics"
                     className="no-underline hover:text-primary-800 transition-all duration-300 ease-linear hover:underline text-sm"
                   >
-                    &bull; Design
+                    &bull; Machine Learning
                   </Link>
                 </li>
               </ul>

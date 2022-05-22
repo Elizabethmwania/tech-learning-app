@@ -34,21 +34,21 @@ function Explore (){
                     alt="teacher"
                     className="img-fluid rounded-full h-8 w-8 object-cover shadow"
                   />
-                  <h5 className="text-sm font-bold tracking-wide">
+                  <h5 className="text-white text-sm font-bold tracking-wide">
                     {course.courseTrainerName}
                   </h5>
                 </div>
-                <p className="font-bold text-primary-amber text-center">
+                <p className="text-primary-900 font-bold text-center">
                   {course.courseName}
                 </p>
                 <div className="flex items-center flex-wrap justify-between">
                   <p className="flex space-x-2 items-center">
                     <FontAwesomeIcon icon={faBookOpen} size="xs" />
-                    <span className="text-sm">{course.courseTopics} Courses</span>
+                    <span className="text-grayish-600 text-sm">{course.courseTopics} Courses</span>
                   </p>
                   <p className="flex space-x-2 items-center">
                     <FontAwesomeIcon icon={faFolderOpen} size="xs" />
-                    <span className="text-sm">{course.courseLectures} Lectures</span>
+                    <span className="text-grayish-600 text-sm">{course.courseLectures} Lectures</span>
                   </p>
                 </div>
                 <div className="book-cover relative ">

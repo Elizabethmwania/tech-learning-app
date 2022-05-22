@@ -12,7 +12,7 @@ function Discover () {
           <h2 className="tracking-wide leading-normal my-3 lg:leading-normal text-3xl md:text-4xl lg:text-5xl font-bolder text-primary-900">
             Discover How TechGurus Works
           </h2>
-          <p className="leading-relaxed text-sm md:text-base">
+          <p className="text-grayish-600 leading-relaxed text-sm md:text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco.
