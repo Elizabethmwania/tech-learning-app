@@ -19,7 +19,7 @@ function Footer() {
                 LearnR aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to
-                the best tutors and courses from around the world.
+                the best tutors and courses from around the world. We wannna eliminate poverty
               </p>
               {/* Social links */}
               <ul className="flex mb-4 md:mb-0">
