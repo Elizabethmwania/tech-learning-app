@@ -17,7 +17,7 @@ export default function Header() {
       <NavbarContainer>
         <NavbarWrapper>
           <NavbarBrand>
-            <span className="text-xl">Learn</span> <span className="text-primary-800 text-2xl">R</span>
+            <span className="text-xl">Tech</span> <span className="text-primary-800 text-2xl">Gurus</span>
           </NavbarBrand>
           <NavbarToggler
             color="white"
