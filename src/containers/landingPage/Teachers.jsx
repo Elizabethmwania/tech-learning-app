@@ -6,7 +6,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faMediumM } from "@fortawesome/free-brands-svg-icons";
-import Teachers_data from "../../constants/teachers.json";
+import {teachersData} from "./../../data";
 import { settings } from "../../constants/slider";
 import { TeachersSlider } from "../../styles/styled";
 import Button from "../../components/Button/Button";
@@ -29,26 +29,24 @@ const Teachers = ({title, home}) => (
         data-aos-duration="1500"
       >
         <TeachersSlider {...settings}>
-          {Teachers_data.map((item, i) => {
+          {teachersData.teachers.map((teacher) => {
             return (
-              <div
-                key={i}
-                className="pt-3 border-2 border-primary-fade slick-cont text-center"
-              >
+              <div className="pt-3 border-2 border-primary-fade slick-cont text-center">
                 {/* <div className="img-box"> */}
                 <img
-                  src={require(`../../assets/img/${item.img}`)}
+                  src={teacher.image}
                   className="rounded-full mb-3"
                   alt="teacher"
                 />
                 {/* </div> */}
                 <div className="flex flex-col space-y-3">
-                  <h4 className="font-bold px-3 tracking-wide"><Link to="/teacher-details">{item.name}</Link></h4>
-                  <p className="tracking-widest text-xs uppercase px-3">
-                    Teacher
+                  <h4 className="text-primary-900 font-bold text-center"><Link to="/teacher-details">{teacher.name}</Link></h4>
+                  <p className="text-grayish-600 leading-relaxed text-sm md:text-base">
+                    
+                    {teacher.description}
                   </p>
                   {/* <p>{ item.desc }</p> */}
-                  <div className="social-links bg-tag-section py-4">
+                  <div className="text-primary-900 social-links bg-tag-section py-4">
                     <ul className="flex justify-center items-center space-x-4">
                       <li>
                         <a href="https://">

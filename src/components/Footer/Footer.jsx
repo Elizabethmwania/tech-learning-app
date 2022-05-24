@@ -16,7 +16,7 @@ function Footer() {
               {/* Logo */}
               <Logo />
               <p className="text-sm pb-6 leading-relaxed tracking-wide text-gray-600 text-center font-medium">
-                LearnR aims to bring together students and teachers on the
+                TechGurus aims to bring together students and trainers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to
                 the best tutors and courses from around the world. We wannna eliminate poverty
@@ -69,16 +69,16 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+            <h6 className="text-primary-900 font-bold mb-4 border-l-4 pl-3 border-primary-900">
               Courses
             </h6>
-            <ul className="text-sm">
+            <ul className="text-grayish-600 text-sm">
               <li className="mb-2">
                 <Link
                   to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
-                  Physics
+                  Blockchain
                 </Link>
               </li>
               <li className="mb-2">
@@ -86,7 +86,7 @@ function Footer() {
                   to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
-                  Mathematics
+                  Machine Latabase
                 </Link>
               </li>
               <li className="mb-2">
@@ -94,7 +94,7 @@ function Footer() {
                   to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
-                  Literature
+                  Application Development
                 </Link>
               </li>
               <li className="mb-2">
@@ -102,7 +102,7 @@ function Footer() {
                   to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
-                  Chemistry
+                  Data Science
                 </Link>
               </li>
               <li className="mb-2">
@@ -110,7 +110,7 @@ function Footer() {
                   to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
-                  Biology
+                  Blockchain
                 </Link>
               </li>
             </ul>
@@ -118,10 +118,10 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+            <h6 className="text-primary-900 font-bold mb-4 border-l-4 pl-3 border-primary-900">
               Resources
             </h6>
-            <ul className="text-sm">
+            <ul className="text-grayish-600 text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
@@ -167,10 +167,10 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+            <h6 className="text-primary-900 font-bold mb-4 border-l-4 pl-3 border-primary-900">
               Quick Links
             </h6>
-            <ul className="text-sm">
+            <ul className="text-grayish-600 text-sm">
               <li className="mb-2">
                 <Link
                   to="/"
@@ -216,10 +216,10 @@ function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+            <h6 className="text-primary-900 font-bold mb-4 border-l-4 pl-3 border-primary-900">
               Subscribe
             </h6>
-            <p className="text-sm  mb-4">
+            <p className="text-grayish-600 text-sm  mb-4">
               Get the latest news and articles to your inbox every month.
             </p>
             <form>
@@ -267,7 +267,7 @@ function Footer() {
 
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-8 border-t border-gray-200">
-          <div className="text-sm md:order-1 mb-2 md:mb-0">
+          <div className="text-grayish-600 text-sm md:order-1 mb-2 md:mb-0">
             <Link
               to="#"
               className=" hover:text-primary-900 hover:underline transition duration-150 ease-linear"
@@ -282,20 +282,20 @@ function Footer() {
               Privacy Policy
             </Link>
             <p className="pt-2">
-              <a href="https://storyset.com/online" className="text-xs ">
+              <a href="https://" className="text-xs ">
                 Online illustrations by Storyset
               </a>
             </p>
           </div>
 
           {/* Copyrights note */}
-          <div className="text-sm  mr-4">
+          <div className="text-grayish-600 text-sm  mr-4">
             Made by{" "}
             <a
               className="text-primary-amber font-bold hover:underline"
               href="https://"
             >
-              MG28 Team
+              TechGurus
             </a>
             . All rights reserved.
           </div>

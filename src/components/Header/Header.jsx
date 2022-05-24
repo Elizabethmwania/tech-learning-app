@@ -36,7 +36,7 @@ function Header() {
             <Link
               to="/"
               className="flex space-x-3 justify-center"
-              aria-label="LearnR"
+              aria-label="TechGurus"
             >
               <img src={logo} alt="logo" className="img-fluid w-12 h-10" />
               <h3 className="flex items-center uppercase">
@@ -83,7 +83,7 @@ function Header() {
             </button>
 
             <nav className="lg:flex items-center space-x-32 hidden">
-              <ul className="lg:flex lg:space-y-0 lg:flex-grow lg:flex-row lg:flex-wrap lg:space-x-10 lg:items-center ">
+              <ul className="text-primary-900 lg:flex lg:space-y-0 lg:flex-grow lg:flex-row lg:flex-wrap lg:space-x-10 lg:items-center ">
                 {/* Home */}
                 <li>
                   <NavLink

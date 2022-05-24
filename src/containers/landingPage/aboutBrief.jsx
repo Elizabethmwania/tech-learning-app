@@ -20,7 +20,7 @@ const AboutBrief = () => (
           <h2 className="tracking-wide lg:leading-normal text-3xl my-5 md:text-4xl lg:text-5xl font-bolder text-primary-900 text-center lg:text-left">
             129+ Courses Online from Best Teachers
           </h2>
-          <p className="leading-relaxed text-center lg:text-left text-sm md:text-base">
+          <p className="text-white leading-relaxed text-center lg:text-left text-sm md:text-base">
             TechGurus aims to bring together students and teachers on the community
             platform. We take our mission of increasing global access to quality
             education seriously. We connect learners to the best tutors and
@@ -29,7 +29,7 @@ const AboutBrief = () => (
             by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad
           </p>
           <hr className="text-primary-amber w-20 py-4 mt-5" />
-          <ul className="list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-3 text-sm md:text-base">
+          <ul className="text-grayish-600 text-opacity:50 list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-3 text-sm md:text-base">
             <li>Professional and Experienced</li>
             <li>
               We Connect Learners To The Best Teachers From Around The World

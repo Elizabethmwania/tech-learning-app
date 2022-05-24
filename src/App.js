@@ -38,7 +38,7 @@ function App() {
   
   return (
     <Routes>
-      <Route path="" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/courses" element={<Courses />} />
       <Route path="/signin" element={<SignIn />} />
