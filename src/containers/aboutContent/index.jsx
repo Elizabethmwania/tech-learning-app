@@ -14,7 +14,7 @@ const AboutIndex = () => (
       <div className="max-w-3xl mx-auto text-center pt-36 lg:pt-0 lg:-mt-28 xl:-mt-40">
         <div className="flex flex-col space-y-6">
           <h1 className="lg:text-6xl text-4xl font-bolder tracking-wide lg:font-bold leading-snug">
-            About LearnR
+            About TechGurus
           </h1>
           <p className="flex items-center space-x-3 justify-center">
             <Link to="/" className="text-primary-900">

@@ -7,7 +7,7 @@ import './styles/global.css';
 import "./styles/output.css";
 import Home from './pages';
 import AboutUs from './pages/about';
-import Error404 from './pages/Error404';
+//import Error404 from './pages/Error404';
 import Error500 from './pages/Error500';
 import SignIn from './pages/Sign-in';
 import SignUp from './pages/Sign-up';
@@ -48,8 +48,8 @@ function App() {
       <Route path="/become-a-teacher" element={<BecomeATeacher />} />
       <Route path="/teachers-form" element={<TeacherForm />} />
       <Route path="/teacher-details" element={<TeacherDetails />} />
-      <Route path="*" element={<Error404 />} />
-      <Route path="/server-error" element={<Error500 />} />
+      <Route path="*" element={<Home />} />
+      <Route path="/sign-in" element={<Error500 />} />
       {/* <Route path="" element={<Navigate to="/not-found" />} /> */}
     </Routes>
   );

@@ -37,7 +37,7 @@ const AboutStatements = () => {
             }}
           >
             <FontAwesomeIcon icon={faArrowRight} className="hidden md:block" />
-            <span>Why LearnR</span>
+            <span>Why TechGurus</span>
           </button>
           <button
             className={`md:flex grow md:space-x-3 items-center p-4 font-semibold transition duration-300 ease-in-out focus:outline-none text-sm md:text-md ${
@@ -88,9 +88,9 @@ const AboutStatements = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative">
-              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Why LearnR</h3>
+              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Why TechGurus</h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
-                LearnR aims to bring together students and teachers on the
+                TechGurus aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to
                 the best tutors and courses from around the world. The quick,
@@ -126,7 +126,7 @@ const AboutStatements = () => {
             <div className="relative">
               <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Our Mission</h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
-                LearnR aims to bring together students and teachers on the
+                TechGurus aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to
                 the best tutors and courses from around the world. The quick,
@@ -162,7 +162,7 @@ const AboutStatements = () => {
             <div className="relative">
               <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Our Vision</h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
-                LearnR aims to bring together students and teachers on the
+                TechGurus aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to
                 the best tutors and courses from around the world. The quick,

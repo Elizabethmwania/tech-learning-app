@@ -18,7 +18,7 @@ const AboutFacts = () => (
             Strengths in Numbers
           </h2>
           <p className="leading-relaxed text-center lg:text-left text-sm md:text-base font-medium">
-            LearnR aims to bring together students and teachers on the community
+            TechGurus aims to bring together students and teachers on the community
             platform. We take our mission of increasing global access to quality
             education seriously. We connect learners to the best tutors and
             courses from around the world.
